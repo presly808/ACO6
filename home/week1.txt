@@ -1,0 +1,79 @@
+1.  Primitive and Reference types
+    Methods
+
+    OOP
+        Class(methods, fields, constructors) -> Object
+
+    read java doc about all methods
+        class String
+        class Scanner
+
+    constructors in java, overloading of (constructors, methods)
+    this word
+    Encapsulation(private, package-private, protected, public)
+
+    1. Написать класс массив.
+    	- нахождение минимального
+    	- нахождение максимального
+    	- заполнение случайными числами в диапазоне
+    	- красивый вывод на экран {2 4 5 6}
+    	-* увеличить размер
+    	-* сделать сортировку массива
+    	-* метод для сравнения с другим массивом
+
+    2. Написать класс строка
+    	- создание на основе массива символов
+    	- вывод на экран
+    	- конкатенация
+    	- понижение регистра
+    	- повышение регистра
+    	- поиск подстроки
+    	- выделение подстроки
+    	- удаление пробелов
+    	- метод для сравнения с другой строкой
+
+    3. Написать класс дробь
+    	- сложение дробей
+    	- вычитание
+    	- умножение
+    	- деление
+    	- приведение к строке
+    	- вывод
+    	- метод для сравнения с другой дробью
+
+    4. Add functional to contact list app
+        - addContact
+        - removeLast
+        - findContactByName
+        - removeContactByName
+        - replaceContactNumberByName
+
+        -* updateContactInfo
+
+        - showAllContacts
+
+        - showFirstFiveContacts
+        - showLastFiveContacts
+
+        - showContactsByAlphabet
+        - showContactsByAge
+
+        - showLifeContacts
+        - showKievstarContacts
+
+        (name must be unique in contact list)
+        before adding do validation
+        user can put wrong info like that
+            7sdf463dfg276
+        before saving check all symbols
+
+            You can extend contact list app
+                Add new classes, think about more comfortable arcitecture
+
+
+5. Литература
+		6.1. Кэти Сьерра, Берт Бейтс. "Head First Java / Изучаем Java"  http://rutracker.org/forum/viewtopic.php?t=4212262
+		6.2. Шилдт Г. "Java. Полное руководство"  						http://padabum.com/d.php?id=17386
+		6.3. Кей Хорстманн, Гари Корнелл - Java 2. Том 1 				http://www.ex.ua/8600905
+		6.4. Брюс Эккель. "Философия Java"                              http://www.ex.ua/4884921
+		6.5. OCJP 7 													http://it-ebooks.info/book/2095/
