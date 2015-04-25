@@ -28,4 +28,12 @@ public class MyString {
 
         return new MyString(res);
     }
+
+    public String toString(){
+        String res = "";
+        for (int i = 0; i < mas.length; i++) {
+            res += mas[i];
+        }
+        return res;
+    }
 }
