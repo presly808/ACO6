@@ -66,6 +66,25 @@ class ICup {
         this.price = price;
     }
 
+    public boolean isEqual(ICup cup){
+        if(cup == null){
+            return false;
+        }
+
+        if(this == cup){
+            return true;
+        }
+
+
+        if(this.size == cup.size &&
+                Double.compare(this.price, cup.price) == 0 &&
+                (this.material != null && this.material.equals(cup.material))){
+            return true;
+        }
+
+        return false;
+    }
+
     @Override
     public boolean equals(Object obj) {
         if(obj == null){

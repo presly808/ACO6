@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="677.625" y="1478.0">ua.artcode.service_centre.v3.service_centre.controller.ServiceCentre</node>
+    <node x="349.1370833333334" y="0.0">ua.artcode.service_centre.v3.service_centre.model.Technics</node>
+    <node x="10.5" y="433.0">ua.artcode.service_centre.v3.service_centre.model.Stuff</node>
+    <node x="503.0495833333333" y="1067.0">ua.artcode.service_centre.v3.service_centre.model.WorkLog</node>
+    <node x="38.71208333333334" y="1691.0">ua.artcode.service_centre.v3.service_centre.view.RepairView</node>
+    <node x="691.2995833333334" y="800.0">ua.artcode.service_centre.v3.service_centre.model.Client</node>
+    <node x="865.625" y="1702.0">ua.artcode.service_centre.v3.service_centre.view.ClientView</node>
+    <node x="270.0495833333333" y="1177.0">ua.artcode.service_centre.v3.service_centre.view.LoginHelper</node>
+    <node x="570.2979166666667" y="1948.0">ua.artcode.service_centre.v3.service_centre.RunApp</node>
+    <node x="153.0" y="888.5">ua.artcode.service_centre.v3.service_centre.model.Repairer</node>
+    <node x="780.6870833333334" y="499.0">ua.artcode.service_centre.v3.service_centre.model.TechnicsList</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ua.artcode.service_centre.v3.service_centre.view.RepairView" target="ua.artcode.service_centre.v3.service_centre.model.Repairer">
+      <point x="0.0" y="-103.5" />
+      <point x="188.71208333333334" y="1666.0" />
+      <point x="144.21208333333334" y="1666.0" />
+      <point x="144.21208333333334" y="1047.0" />
+      <point x="163.875" y="1047.0" />
+      <point x="-32.625" y="15.0" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v3.service_centre.view.ClientView" target="ua.artcode.service_centre.v3.service_centre.model.Client">
+      <point x="63.25" y="-92.5" />
+      <point x="1055.375" y="1047.0" />
+      <point x="929.2995833333334" y="1047.0" />
+      <point x="101.99999999999994" y="103.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v3.service_centre.model.WorkLog" target="ua.artcode.service_centre.v3.service_centre.model.Technics">
+      <point x="5.6843418860808015E-14" y="-180.5" />
+      <point x="704.0495833333334" y="1027.0" />
+      <point x="680.7995833333334" y="1027.0" />
+      <point x="680.7995833333334" y="413.0" />
+      <point x="635.3870833333334" y="413.0" />
+      <point x="57.25" y="191.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v3.service_centre.view.ClientView" target="ua.artcode.service_centre.v3.service_centre.controller.ServiceCentre">
+      <point x="-63.25" y="-92.5" />
+      <point x="928.875" y="1666.0" />
+      <point x="973.4583333333333" y="1666.0" />
+      <point x="118.33333333333326" y="81.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v3.service_centre.model.TechnicsList" target="ua.artcode.service_centre.v3.service_centre.model.Technics">
+      <point x="0.0" y="-92.5" />
+      <point x="944.6870833333334" y="413.0" />
+      <point x="749.8870833333334" y="413.0" />
+      <point x="171.75" y="191.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v3.service_centre.view.LoginHelper" target="ua.artcode.service_centre.v3.service_centre.model.Technics">
+      <point x="0.0" y="-70.5" />
+      <point x="376.5495833333333" y="1047.0" />
+      <point x="393.0" y="1047.0" />
+      <point x="393.0" y="413.0" />
+      <point x="520.8870833333334" y="413.0" />
+      <point x="-57.25" y="191.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v3.service_centre.RunApp" target="ua.artcode.service_centre.v3.service_centre.view.RepairView">
+      <point x="-65.625" y="-26.0" />
+      <point x="592.1729166666667" y="1928.0" />
+      <point x="188.71208333333334" y="1928.0" />
+      <point x="0.0" y="103.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v3.service_centre.model.Client" target="ua.artcode.service_centre.v3.service_centre.model.TechnicsList">
+      <point x="-68.00000000000006" y="-103.5" />
+      <point x="759.2995833333334" y="775.0" />
+      <point x="821.6870833333334" y="775.0" />
+      <point x="-123.0" y="92.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v3.service_centre.RunApp" target="ua.artcode.service_centre.v3.service_centre.view.ClientView">
+      <point x="65.625" y="-26.0" />
+      <point x="723.4229166666667" y="1928.0" />
+      <point x="992.125" y="1928.0" />
+      <point x="0.0" y="92.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v3.service_centre.view.LoginHelper" target="ua.artcode.service_centre.v3.service_centre.model.Client">
+      <point x="42.60000000000002" y="-70.5" />
+      <point x="419.14958333333334" y="1037.0" />
+      <point x="725.2995833333334" y="1037.0" />
+      <point x="-102.0" y="103.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v3.service_centre.view.RepairView" target="ua.artcode.service_centre.v3.service_centre.controller.ServiceCentre">
+      <point x="100.0" y="-103.5" />
+      <point x="288.71208333333334" y="1666.0" />
+      <point x="736.7916666666667" y="1666.0" />
+      <point x="-118.33333333333331" y="81.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v3.service_centre.view.RepairView" target="ua.artcode.service_centre.v3.service_centre.model.Technics">
+      <point x="-100.0" y="-103.5" />
+      <point x="88.71208333333334" y="1666.0" />
+      <point x="0.0" y="1666.0" />
+      <point x="0.0" y="403.0" />
+      <point x="406.3870833333334" y="403.0" />
+      <point x="-171.75" y="191.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v3.service_centre.controller.ServiceCentre" target="ua.artcode.service_centre.v3.service_centre.model.TechnicsList">
+      <point x="133.125" y="-81.5" />
+      <point x="988.25" y="1453.0" />
+      <point x="1020.1870833333334" y="1453.0" />
+      <point x="1020.1870833333334" y="775.0" />
+      <point x="1067.6870833333332" y="775.0" />
+      <point x="123.0" y="92.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v3.service_centre.model.WorkLog" target="ua.artcode.service_centre.v3.service_centre.model.Repairer">
+      <point x="-133.99999999999994" y="-180.5" />
+      <point x="570.0495833333334" y="1027.0" />
+      <point x="229.125" y="1027.0" />
+      <point x="32.625" y="15.0" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v3.service_centre.model.WorkLog" target="ua.artcode.service_centre.v3.service_centre.model.Client">
+      <point x="134.00000000000006" y="-180.5" />
+      <point x="838.0495833333334" y="1047.0" />
+      <point x="861.2995833333334" y="1047.0" />
+      <point x="33.99999999999994" y="103.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v3.service_centre.controller.ServiceCentre" target="ua.artcode.service_centre.v3.service_centre.model.WorkLog">
+      <point x="-44.375" y="-81.5" />
+      <point x="810.75" y="1453.0" />
+      <point x="804.5495833333334" y="1453.0" />
+      <point x="100.50000000000006" y="180.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v3.service_centre.RunApp" target="ua.artcode.service_centre.v3.service_centre.controller.ServiceCentre">
+      <point x="21.875" y="-26.0" />
+      <point x="679.6729166666667" y="1918.0" />
+      <point x="855.125" y="1918.0" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v3.service_centre.view.LoginHelper" target="ua.artcode.service_centre.v3.service_centre.model.Repairer">
+      <point x="-42.599999999999966" y="-70.5" />
+      <point x="333.94958333333335" y="1037.0" />
+      <point x="207.375" y="1037.0" />
+      <point x="10.875" y="15.0" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v3.service_centre.model.Repairer" target="ua.artcode.service_centre.v3.service_centre.model.Stuff">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="158.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v3.service_centre.RunApp" target="ua.artcode.service_centre.v3.service_centre.view.LoginHelper">
+      <point x="-21.875" y="-26.0" />
+      <point x="635.9229166666667" y="1918.0" />
+      <point x="376.5495833333333" y="1918.0" />
+      <point x="0.0" y="70.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="250.71428571428555" y="535.2857142857142" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

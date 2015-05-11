@@ -23,16 +23,5 @@ public class TestArrayList {
         //al.contains()
 
 
-
-
-
-
-
-
-
-
-
-
-
     }
 }

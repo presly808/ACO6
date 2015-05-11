@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="575.25" y="311.0">ua.artcode.service_centre.v2.centre_mvc.model.Spec</node>
+    <node x="315.25" y="333.0">ua.artcode.service_centre.v2.centre_mvc.model.Ticket</node>
+    <node x="101.25" y="1038.0">ua.artcode.service_centre.v2.centre_mvc.view.ClientView</node>
+    <node x="490.25" y="590.0">ua.artcode.service_centre.v2.centre_mvc.model.ServiceCentre</node>
+    <node x="299.75" y="869.0">ua.artcode.service_centre.v2.centre_mvc.controller.ClientController</node>
+    <node x="438.75" y="1405.0">ua.artcode.service_centre.v2.centre_mvc.Run</node>
+    <node x="0.0" y="311.0">ua.artcode.service_centre.v2.centre_mvc.model.Client</node>
+    <node x="384.0119047619048" y="0.0">ua.artcode.service_centre.v2.centre_mvc.model.Product</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ua.artcode.service_centre.v2.centre_mvc.model.Ticket" target="ua.artcode.service_centre.v2.centre_mvc.model.Product">
+      <point x="0.0" y="-92.5" />
+      <point x="435.25" y="291.0" />
+      <point x="514.8452380952381" y="291.0" />
+      <point x="-26.166666666666686" y="125.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v2.centre_mvc.Run" target="ua.artcode.service_centre.v2.centre_mvc.model.ServiceCentre">
+      <point x="35.0" y="-26.0" />
+      <point x="561.25" y="1375.0" />
+      <point x="721.25" y="1375.0" />
+      <point x="77.0" y="114.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v2.centre_mvc.model.ServiceCentre" target="ua.artcode.service_centre.v2.centre_mvc.model.Ticket">
+      <point x="-77.0" y="-114.5" />
+      <point x="567.25" y="565.0" />
+      <point x="495.25" y="565.0" />
+      <point x="60.0" y="92.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v2.centre_mvc.view.ClientView" target="ua.artcode.service_centre.v2.centre_mvc.model.Client">
+      <point x="-99.99999999999994" y="-158.5" />
+      <point x="201.25000000000006" y="565.0" />
+      <point x="219.0" y="565.0" />
+      <point x="73.0" y="114.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v2.centre_mvc.Run" target="ua.artcode.service_centre.v2.centre_mvc.model.Client">
+      <point x="-70.0" y="-26.0" />
+      <point x="456.25" y="1385.0" />
+      <point x="90.75" y="1385.0" />
+      <point x="90.75" y="565.0" />
+      <point x="73.0" y="565.0" />
+      <point x="-73.0" y="114.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v2.centre_mvc.model.Spec" target="ua.artcode.service_centre.v2.centre_mvc.model.Product">
+      <point x="-73.0" y="-114.5" />
+      <point x="648.25" y="291.0" />
+      <point x="567.1785714285716" y="291.0" />
+      <point x="26.166666666666686" y="125.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v2.centre_mvc.controller.ClientController" target="ua.artcode.service_centre.v2.centre_mvc.model.Ticket">
+      <point x="-75.5" y="-59.5" />
+      <point x="-60.0" y="92.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v2.centre_mvc.Run" target="ua.artcode.service_centre.v2.centre_mvc.model.Product">
+      <point x="70.0" y="-26.0" />
+      <point x="596.25" y="1385.0" />
+      <point x="877.75" y="1385.0" />
+      <point x="877.75" y="271.0" />
+      <point x="671.8452380952382" y="271.0" />
+      <point x="130.83333333333337" y="125.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v2.centre_mvc.Run" target="ua.artcode.service_centre.v2.centre_mvc.view.ClientView">
+      <point x="-35.0" y="-26.0" />
+      <point x="491.25" y="1375.0" />
+      <point x="301.25" y="1375.0" />
+      <point x="0.0" y="158.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v2.centre_mvc.model.Client" target="ua.artcode.service_centre.v2.centre_mvc.model.Product">
+      <point x="73.0" y="-114.5" />
+      <point x="219.0" y="281.0" />
+      <point x="462.5119047619048" y="281.0" />
+      <point x="-78.5" y="125.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v2.centre_mvc.view.ClientView" target="ua.artcode.service_centre.v2.centre_mvc.controller.ClientController">
+      <point x="100.00000000000003" y="-158.5" />
+      <point x="401.25" y="1013.0" />
+      <point x="375.25" y="1013.0" />
+      <point x="-75.5" y="59.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v2.centre_mvc.Run" target="ua.artcode.service_centre.v2.centre_mvc.controller.ClientController">
+      <point x="0.0" y="-26.0" />
+      <point x="75.5" y="59.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v2.centre_mvc.controller.ClientController" target="ua.artcode.service_centre.v2.centre_mvc.model.ServiceCentre">
+      <point x="75.5" y="-59.5" />
+      <point x="526.25" y="844.0" />
+      <point x="567.25" y="844.0" />
+      <point x="-77.0" y="114.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v2.centre_mvc.model.ServiceCentre" target="ua.artcode.service_centre.v2.centre_mvc.model.Spec">
+      <point x="77.0" y="-114.5" />
+      <point x="0.0" y="114.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="157.0" y="1040.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="42.99537037037038" y="256.5">ua.artcode.dp.mvc.view.IUserView</node>
+    <node x="471.875" y="168.0">ua.artcode.dp.mvc.model.User</node>
+    <node x="746.9768518518518" y="502.0">ua.artcode.dp.mvc.model.UsersHolder</node>
+    <node x="448.875" y="704.0">ua.artcode.dp.mvc.Run</node>
+    <node x="193.375" y="234.5">ua.artcode.dp.mvc.controller.IUserController</node>
+    <node x="526.875" y="0.0">ua.artcode.dp.mvc.model.UserType</node>
+    <node x="0.0" y="447.0">ua.artcode.dp.mvc.view.UserView</node>
+    <node x="749.875" y="245.5">ua.artcode.dp.mvc.model.IUserModel</node>
+    <node x="399.875" y="491.0">ua.artcode.dp.mvc.controller.UserController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ua.artcode.dp.mvc.view.UserView" target="ua.artcode.dp.mvc.controller.IUserController">
+      <point x="91.5" y="-103.5" />
+      <point x="274.5" y="427.0" />
+      <point x="257.125" y="427.0" />
+      <point x="-63.75" y="48.0" />
+    </edge>
+    <edge source="ua.artcode.dp.mvc.controller.UserController" target="ua.artcode.dp.mvc.controller.IUserController">
+      <point x="-91.0" y="-59.5" />
+      <point x="445.375" y="427.0" />
+      <point x="384.625" y="427.0" />
+      <point x="63.75" y="48.0" />
+    </edge>
+    <edge source="ua.artcode.dp.mvc.model.UsersHolder" target="ua.artcode.dp.mvc.model.User">
+      <point x="-50.5" y="-48.5" />
+      <point x="797.4768518518518" y="417.0" />
+      <point x="665.375" y="417.0" />
+      <point x="64.5" y="114.5" />
+    </edge>
+    <edge source="ua.artcode.dp.mvc.controller.UserController" target="ua.artcode.dp.mvc.model.User">
+      <point x="0.0" y="-59.5" />
+      <point x="-64.5" y="114.5" />
+    </edge>
+    <edge source="ua.artcode.dp.mvc.model.User" target="ua.artcode.dp.mvc.model.UserType">
+      <point x="0.0" y="-114.5" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="ua.artcode.dp.mvc.Run" target="ua.artcode.dp.mvc.model.UsersHolder">
+      <point x="58.33333333333337" y="-26.0" />
+      <point x="594.7083333333334" y="679.0" />
+      <point x="847.9768518518518" y="679.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="ua.artcode.dp.mvc.model.UsersHolder" target="ua.artcode.dp.mvc.model.IUserModel">
+      <point x="50.5" y="-48.5" />
+      <point x="898.4768518518518" y="427.0" />
+      <point x="913.375" y="427.0" />
+      <point x="54.5" y="37.0" />
+    </edge>
+    <edge source="ua.artcode.dp.mvc.view.UserView" target="ua.artcode.dp.mvc.view.IUserView">
+      <point x="-91.5" y="-103.5" />
+      <point x="91.5" y="427.0" />
+      <point x="107.49537037037038" y="427.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="ua.artcode.dp.mvc.Run" target="ua.artcode.dp.mvc.controller.UserController">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="59.5" />
+    </edge>
+    <edge source="ua.artcode.dp.mvc.controller.UserController" target="ua.artcode.dp.mvc.model.IUserModel">
+      <point x="91.0" y="-59.5" />
+      <point x="627.375" y="427.0" />
+      <point x="804.375" y="427.0" />
+      <point x="-54.5" y="37.0" />
+    </edge>
+    <edge source="ua.artcode.dp.mvc.Run" target="ua.artcode.dp.mvc.view.UserView">
+      <point x="-58.33333333333337" y="-26.0" />
+      <point x="478.04166666666663" y="679.0" />
+      <point x="183.0" y="679.0" />
+      <point x="0.0" y="103.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="484.0" y="378.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

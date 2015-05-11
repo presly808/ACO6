@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="238.5774159663867" y="1080.0">ua.artcode.service_centre.v1.Admin</node>
+    <node x="40.0" y="458.0">ua.artcode.service_centre.v1.Ticket</node>
+    <node x="437.03714985994407" y="279.0">ua.artcode.service_centre.v1.Client</node>
+    <node x="716.9619047619049" y="1792.0">ua.artcode.service_centre.v1.Menu</node>
+    <node x="603.6994047619048" y="1447.0">ua.artcode.service_centre.v1.ServiceCentre</node>
+    <node x="327.97464985994407" y="0.0">ua.artcode.service_centre.v1.Product</node>
+    <node x="746.1458333333334" y="612.5">ua.artcode.service_centre.v1.Worker</node>
+    <node x="791.4619047619049" y="2115.0">ua.artcode.service_centre.v1.RunApp</node>
+    <node x="125.0625" y="66.0">ua.artcode.service_centre.v1.ClientTicket</node>
+    <node x="648.4538165266108" y="0.0">ua.artcode.service_centre.v1.Human</node>
+    <node x="628.5996498599441" y="869.0">ua.artcode.service_centre.v1.Specialist</node>
+    <node x="823.2782212885155" y="1212.5">ua.artcode.service_centre.v1.Director</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ua.artcode.service_centre.v1.Menu" target="ua.artcode.service_centre.v1.ServiceCentre">
+      <point x="-64.80000000000007" y="-136.5" />
+      <point x="814.1619047619048" y="1762.0" />
+      <point x="696.9494047619048" y="1762.0" />
+      <point x="-93.25" y="147.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v1.Client" target="ua.artcode.service_centre.v1.Human">
+      <point x="100.33333333333337" y="-59.5" />
+      <point x="687.8704831932774" y="259.0" />
+      <point x="721.4538165266108" y="259.0" />
+      <point x="-73.0" y="114.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v1.Menu" target="ua.artcode.service_centre.v1.Admin">
+      <point x="-129.60000000000002" y="-136.5" />
+      <point x="749.3619047619048" y="1772.0" />
+      <point x="351.8274159663867" y="1772.0" />
+      <point x="-113.25" y="158.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v1.Director" target="ua.artcode.service_centre.v1.Worker">
+      <point x="0.0" y="-26.0" />
+      <point x="928.2782212885155" y="849.0" />
+      <point x="863.6458333333334" y="849.0" />
+      <point x="47.0" y="26.0" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v1.Client" target="ua.artcode.service_centre.v1.Product">
+      <point x="0.0" y="-59.5" />
+      <point x="587.5371498599441" y="259.0" />
+      <point x="551.4746498599441" y="259.0" />
+      <point x="74.5" y="114.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v1.Admin" target="ua.artcode.service_centre.v1.Specialist">
+      <point x="129.4285714285714" y="-158.5" />
+      <point x="594.5059873949581" y="1040.0" />
+      <point x="676.4329831932774" y="1040.0" />
+      <point x="-95.66666666666663" y="70.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v1.Ticket" target="ua.artcode.service_centre.v1.Client">
+      <point x="142.0" y="-180.5" />
+      <point x="395.0" y="428.0" />
+      <point x="474.66214985994407" y="428.0" />
+      <point x="-112.875" y="59.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v1.Director" target="ua.artcode.service_centre.v1.ServiceCentre">
+      <point x="52.5" y="26.0" />
+      <point x="980.7782212885155" y="1422.0" />
+      <point x="930.0744047619048" y="1422.0" />
+      <point x="139.87499999999997" y="-147.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v1.ServiceCentre" target="ua.artcode.service_centre.v1.Specialist">
+      <point x="-46.625" y="-147.5" />
+      <point x="743.5744047619048" y="1422.0" />
+      <point x="767.9494047619048" y="1422.0" />
+      <point x="767.9494047619048" y="1060.0" />
+      <point x="867.7663165266108" y="1060.0" />
+      <point x="95.66666666666674" y="70.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v1.ServiceCentre" target="ua.artcode.service_centre.v1.Director">
+      <point x="46.625" y="-147.5" />
+      <point x="836.8244047619048" y="1422.0" />
+      <point x="875.7782212885155" y="1422.0" />
+      <point x="-52.5" y="26.0" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v1.Specialist" target="ua.artcode.service_centre.v1.Ticket">
+      <point x="-71.75" y="-70.5" />
+      <point x="700.3496498599441" y="839.0" />
+      <point x="395.0" y="839.0" />
+      <point x="142.0" y="180.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v1.Specialist" target="ua.artcode.service_centre.v1.Admin">
+      <point x="0.0" y="70.5" />
+      <point x="772.0996498599441" y="1050.0" />
+      <point x="659.2202731092437" y="1050.0" />
+      <point x="194.14285714285705" y="-158.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v1.Admin" target="ua.artcode.service_centre.v1.Ticket">
+      <point x="-64.71428571428578" y="-158.5" />
+      <point x="400.3631302521009" y="1040.0" />
+      <point x="253.0" y="1040.0" />
+      <point x="0.0" y="180.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v1.Client" target="ua.artcode.service_centre.v1.ClientTicket">
+      <point x="-100.33333333333331" y="-59.5" />
+      <point x="487.20381652661075" y="249.0" />
+      <point x="270.89583333333337" y="249.0" />
+      <point x="58.33333333333337" y="48.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v1.ServiceCentre" target="ua.artcode.service_centre.v1.Admin">
+      <point x="-139.875" y="-147.5" />
+      <point x="650.3244047619048" y="1422.0" />
+      <point x="578.3274159663866" y="1422.0" />
+      <point x="113.24999999999994" y="158.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v1.ClientTicket" target="ua.artcode.service_centre.v1.Ticket">
+      <point x="0.0" y="48.5" />
+      <point x="212.5625" y="438.0" />
+      <point x="111.0" y="438.0" />
+      <point x="-142.0" y="-180.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v1.Admin" target="ua.artcode.service_centre.v1.Worker">
+      <point x="64.71428571428561" y="-158.5" />
+      <point x="529.7917016806723" y="1030.0" />
+      <point x="618.0996498599441" y="1030.0" />
+      <point x="618.0996498599441" y="849.0" />
+      <point x="769.6458333333334" y="849.0" />
+      <point x="-47.0" y="26.0" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v1.Admin" target="ua.artcode.service_centre.v1.ClientTicket">
+      <point x="-194.14285714285722" y="-158.5" />
+      <point x="270.93455882352947" y="1060.0" />
+      <point x="29.5" y="1060.0" />
+      <point x="29.5" y="259.0" />
+      <point x="154.22916666666663" y="259.0" />
+      <point x="-58.33333333333337" y="48.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v1.Admin" target="ua.artcode.service_centre.v1.Client">
+      <point x="-5.6843418860808015E-14" y="-158.5" />
+      <point x="465.07741596638664" y="1060.0" />
+      <point x="476.5" y="1060.0" />
+      <point x="476.5" y="438.0" />
+      <point x="549.9121498599441" y="438.0" />
+      <point x="-37.625" y="59.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v1.Menu" target="ua.artcode.service_centre.v1.Client">
+      <point x="129.60000000000005" y="-136.5" />
+      <point x="1008.5619047619049" y="1772.0" />
+      <point x="1054.7782212885154" y="1772.0" />
+      <point x="1054.7782212885154" y="418.0" />
+      <point x="700.4121498599441" y="418.0" />
+      <point x="112.875" y="59.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v1.Worker" target="ua.artcode.service_centre.v1.Human">
+      <point x="0.0" y="-26.0" />
+      <point x="816.6458333333334" y="438.0" />
+      <point x="843.8496498599441" y="438.0" />
+      <point x="843.8496498599441" y="259.0" />
+      <point x="867.4538165266108" y="259.0" />
+      <point x="73.0" y="114.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v1.Specialist" target="ua.artcode.service_centre.v1.Worker">
+      <point x="71.75" y="-70.5" />
+      <point x="843.8496498599441" y="849.0" />
+      <point x="816.6458333333334" y="849.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v1.Ticket" target="ua.artcode.service_centre.v1.Product">
+      <point x="0.0" y="-180.5" />
+      <point x="253.0" y="259.0" />
+      <point x="402.47464985994407" y="259.0" />
+      <point x="-74.5" y="114.5" />
+    </edge>
+    <edge source="ua.artcode.service_centre.v1.RunApp" target="ua.artcode.service_centre.v1.Menu">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="136.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.41883859167809784" x="537.0" y="1083.5" />
+  <SelectedNodes>
+    <node>ua.artcode.service_centre.v1.ClientTicket</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
