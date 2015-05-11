@@ -1,0 +1,39 @@
+1.  class Object(equals, toString)
+
+    interfaces Comparable and Comparator
+    Arrays.sort
+
+    types Upcasting and Downcasting
+    type checking = instance of | getClass
+
+    class ArrayList - dynamic array
+
+    static and final words
+
+    Immutable class
+
+    Design Patterns:
+        Strategy, MVC
+
+    book Head First Design Patterns
+
+2.  discover all structure, see uml of below applications(run and debug each applications)
+    2.1. https://github.com/presly808/ACO6/tree/master/src/ua/artcode/service_centre/v2/centre_mvc
+         https://github.com/presly808/ACO6/blob/master/src/ua/artcode/service_centre/v2/centre_mvc/diagram.png
+
+    2.2. https://github.com/presly808/ACO6/tree/master/src/ua/artcode/service_centre/v3/service_centre
+         https://github.com/presly808/ACO6/blob/master/src/ua/artcode/service_centre/v3/service_centre/diagram.png
+
+    2.3. https://github.com/presly808/ACO6/tree/master/src/ua/artcode/dp/mvc
+         https://github.com/presly808/ACO6/blob/master/src/ua/artcode/dp/mvc/mvc_simple.png
+
+    2.4. https://github.com/presly808/ACO6/tree/master/src/ua/artcode/service_centre/v1
+         https://github.com/presly808/ACO6/blob/master/src/ua/artcode/service_centre/v1/diagram.png
+
+
+3. Finish own service centre
+   If you have some problems look at examples above
+
+   !In worst case - just rewrite, run and debug examples
+
+Wish you good week)
