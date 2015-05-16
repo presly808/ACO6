@@ -28,8 +28,7 @@ public class MyArray {
         if(checkRange(index)){
             return mas[index];
         } else {
-            System.err.println("Index out of range");
-            return -1;
+            throw new NoElementByIndexException("Index out of range");
         }
     }
 

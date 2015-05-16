@@ -9,6 +9,8 @@ public class TestMyArray {
         myArray.add(23);
         myArray.add(12);
 
+        myArray.getByIndex(-1);
+
         myArray.printArr();
 
     }
