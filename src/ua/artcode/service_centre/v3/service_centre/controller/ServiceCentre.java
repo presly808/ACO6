@@ -1,5 +1,6 @@
 package ua.artcode.service_centre.v3.service_centre.controller;
 
+import ua.artcode.service_centre.v3.service_centre.exception.NoTechniqueFound;
 import ua.artcode.service_centre.v3.service_centre.model.*;
 
 import java.util.ArrayList;
@@ -10,8 +11,11 @@ public class ServiceCentre {
     private ArrayList<WorkLog> workLogs = new ArrayList<>();
     private TechnicsList technicsList = new TechnicsList();
 
-    public Technics getTechnique(int id){
+    public Technics getTechnique(int id) throws NoTechniqueFound {
         int i = technicsList.indexById(id);
+        if(i == -1){
+            throw new NoTechniqueFound("wrong id of tech");
+        }
         return technicsList.getList().remove(i);
     }
 

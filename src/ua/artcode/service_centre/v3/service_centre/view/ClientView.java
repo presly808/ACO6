@@ -1,5 +1,6 @@
 package ua.artcode.service_centre.v3.service_centre.view;
 
+import ua.artcode.service_centre.v3.service_centre.exception.NoTechniqueFound;
 import ua.artcode.service_centre.v3.service_centre.model.Client;
 import ua.artcode.service_centre.v3.service_centre.controller.ServiceCentre;
 import ua.artcode.service_centre.v3.service_centre.model.Technics;
@@ -40,7 +41,11 @@ public class ClientView {
             }else if(choice == 2){
                 showGiveProductMenu();
             } else if(choice == 3){
-                showTakeProductMenu();
+                try {
+                    showTakeProductMenu();
+                } catch (NoTechniqueFound noTechniqueFound) {
+                    System.err.println("No tech fount " + noTechniqueFound.getMessage());
+                }
             } else if(choice == 4){
                 return;
             }
@@ -56,7 +61,7 @@ public class ClientView {
         System.out.println(key);
     }
 
-    public void showTakeProductMenu(){
+    public void showTakeProductMenu() throws NoTechniqueFound {
         System.out.println("enter product id");
         int id = sc.nextInt();
         Technics repaired = serviceCentre.getTechnique(id);
