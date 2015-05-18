@@ -1,0 +1,47 @@
+1.
+    SimpleDateFormat
+        String -> Date
+        Date   -> String
+
+    for-each in java
+
+    Exception
+        Checked         Unchecked
+
+    Data structures: Stack, Queue, Dequeue
+
+    Dynamic data structures(based on node)
+
+    Recursion
+        factorial and fibonacci numbers
+
+    !!! Use visualisation and draw each step before coding
+        http://www.cs.usfca.edu/~galles/visualization/Algorithms.html
+        http://visualgo.net/list.html
+        http://visualgo.net/recursion.html
+
+
+2. Implement interface https://github.com/presly808/ACO6/blob/master/src/ua/artcode/data_structures/INodeHelper.java
+
+    implements all methods using
+    a) loop
+    b) recursion
+
+3. Реализовать структуру данных Двунаправленную Очередь(Dequeue). НА ОСНОВЕ СВЯЗНОГО СПИСКА.
+       Переопределяем equals, toString, clone для структуры
+      	- добавить элемент в хвост
+      	- добавить элемент в голову
+      	- забрать элемент с головы
+      	- забрать элемент с хвоста
+      	- Поиск элемента по значению (сравнение через equals)
+       - Поменять местами первый и последний элементы
+      	- Поменять местами наибольший и наименьший элементы, в случае если реализован интерфейс Comparable
+      	- Отсортировать список, в случае если реализован интерфейс Comparable
+      	- Удалить повторяющиеся элементы из списка, в случае если реализован интерфейс Comparable
+      	* Перестроить элементы в обратном порядке
+      	* Реализовать итератор
+
+4*. Do all tasks of http://codingbat.com/java/Recursion-1
+
+5*. Rewrite adn debug all steps of service_centre
+    https://github.com/presly808/ACO6/tree/master/src/ua/artcode/service_centre/v3/service_centre
