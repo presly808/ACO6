@@ -5,6 +5,7 @@ package ua.artcode.service_centre.v3.service_centre.model;
  */
 public class Repairer extends Stuff {
 
+    private RepairerType type = RepairerType.JUNIOR;
 
     public Repairer() {
     }
