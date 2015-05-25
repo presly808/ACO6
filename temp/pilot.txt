@@ -1,0 +1,1 @@
+Pilot{name='Oleg', experience=10, salary=10000.0}

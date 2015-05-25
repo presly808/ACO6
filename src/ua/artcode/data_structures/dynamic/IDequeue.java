@@ -1,4 +1,4 @@
-package ua.artcode.data_structures;
+package ua.artcode.data_structures.dynamic;
 
 
 public interface IDequeue<E> extends IQueue<E> {

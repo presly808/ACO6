@@ -1,4 +1,4 @@
-package ua.artcode.data_structures;
+package ua.artcode.data_structures.dynamic;
 
 import java.util.Arrays;
 

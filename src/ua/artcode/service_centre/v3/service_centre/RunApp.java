@@ -24,7 +24,9 @@ public class RunApp {
         while (true) {
             System.out.println("1. Client");
             System.out.println("2. Repairer");
-            System.out.println("3. Exit");
+            System.out.println("3. save");
+            System.out.println("4. load");
+            System.out.println("5. Exit");
             int ch = scanner.nextInt();
 
             if (ch == 1) {
@@ -33,7 +35,7 @@ public class RunApp {
             } else if (ch == 2) {
                 Repairer repairer = loginHelper.logInAsRepairer();
                 new RepairView(repairer, serviceCentre).start();
-            } else if(ch == 3){
+            } else if(ch == 5){
                 break;
             }
 

@@ -1,4 +1,4 @@
-package ua.artcode.data_structures;
+package ua.artcode.data_structures.dynamic;
 
 /**
  * Created by serhii on 17.05.15.

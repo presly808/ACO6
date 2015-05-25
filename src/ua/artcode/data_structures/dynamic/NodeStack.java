@@ -1,4 +1,8 @@
-package ua.artcode.data_structures;
+package ua.artcode.data_structures.dynamic;
+
+import ua.artcode.data_structures.IStack;
+
+import java.util.Iterator;
 
 public class NodeStack implements IStack {
 
@@ -21,5 +25,10 @@ public class NodeStack implements IStack {
         top = top.getNext();//delete from chain
 
         return ret;
+    }
+
+    @Override
+    public Iterator iterator() {
+        return null;
     }
 }
