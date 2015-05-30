@@ -1,11 +1,12 @@
 package ua.artcode.service_centre.v3.service_centre.model;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  * Created by tokar on 11.05.2015.
  */
-public class WorkLog {
+public class WorkLog implements Serializable{
 
     private Date from;
 

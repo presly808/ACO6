@@ -1,11 +1,12 @@
 package ua.artcode.service_centre.v3.service_centre.model;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  * Created by tokar on 06.05.2015.
  */
-public class Client {
+public class Client implements Serializable {
 
     private  String name;
     private String surname;
@@ -62,5 +63,31 @@ public class Client {
 
     public void setTechnicsList(TechnicsList technicsList) {
         this.technicsList = technicsList;
+    }
+
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("Client{");
+        sb.append("name='").append(name).append('\'');
+        sb.append(",surname='").append(surname).append('\'');
+        sb.append(",technicsList=").append(technicsList);
+        sb.append('}');
+        return sb.toString();
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getSurname() {
+        return surname;
+    }
+
+    public void setSurname(String surname) {
+        this.surname = surname;
     }
 }

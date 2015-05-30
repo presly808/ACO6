@@ -1,11 +1,12 @@
 package ua.artcode.service_centre.v3.service_centre.model;
 
+import java.io.Serializable;
 import java.util.Date;
 
 /**
  * Created by tokar on 06.05.2015.
  */
-public class Technics {
+public class Technics implements Serializable  {
     private String condition;
     private Date datePurchase;
     private double price;

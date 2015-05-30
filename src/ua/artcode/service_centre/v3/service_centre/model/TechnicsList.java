@@ -1,11 +1,12 @@
 package ua.artcode.service_centre.v3.service_centre.model;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 
 /**
  * Created by tokar on 06.05.2015.
  */
-public class TechnicsList {
+public class TechnicsList implements Serializable{
    private ArrayList<Technics> list;
 
 
@@ -54,6 +55,17 @@ public class TechnicsList {
     }
 
 
+    @Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("TechnicsList{");
+        sb.append("list=");
+        for (int i = 0; i < list.size() - 1; i++) {
+            sb.append(list.get(i)).append(",");
+        }
+        // appemd last without comma
+        sb.append(list.get(list.size() - 1));
 
-
+        sb.append('}');
+        return sb.toString();
+    }
 }

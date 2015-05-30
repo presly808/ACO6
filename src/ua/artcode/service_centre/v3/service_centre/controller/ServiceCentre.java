@@ -3,13 +3,41 @@ package ua.artcode.service_centre.v3.service_centre.controller;
 import ua.artcode.service_centre.v3.service_centre.exception.NoTechniqueFound;
 import ua.artcode.service_centre.v3.service_centre.model.*;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class ServiceCentre {
+public class ServiceCentre implements Serializable {
+
+
+    private Client client;
+    private Repairer repairer;
 
     private ArrayList<WorkLog> workLogs = new ArrayList<>();
     private TechnicsList technicsList = new TechnicsList();
+
+
+    public void initTestData() {
+        client = new Client("Oleg", "Ivanov");
+        repairer = new Repairer("Yuriy", "Liskov", "repairer", 1000);
+
+        Technics technics1 = new Technics("new", new Date(), 677,345);
+        Technics technics2 = new Technics("new", new Date(), 5656,222);
+        Technics technics3 = new Technics("new", new Date(), 2332,111);
+
+        client.getTechnicsList().addToList(technics1);
+        client.getTechnicsList().addToList(technics2);
+        client.getTechnicsList().addToList(technics3);
+    }
+
+    public Client logInAsClient(){
+        return client;
+    }
+
+
+    public Repairer logInAsRepairer(){
+        return repairer;
+    }
 
     public Technics getTechnique(int id) throws NoTechniqueFound {
         int i = technicsList.indexById(id);
@@ -52,6 +80,19 @@ public class ServiceCentre {
     }
 
 
+    public Repairer getRepairer() {
+        return repairer;
+    }
 
+    public void setRepairer(Repairer repairer) {
+        this.repairer = repairer;
+    }
 
+    public Client getClient() {
+        return client;
+    }
+
+    public void setClient(Client client) {
+        this.client = client;
+    }
 }

@@ -9,7 +9,7 @@ import java.util.Date;
 /**
  * Created by tokar on 11.05.2015.
  */
-public class LoginHelper {
+public class LoginHelper  {
 
     private Client client;
     private Repairer repairer;

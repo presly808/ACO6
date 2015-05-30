@@ -14,4 +14,5 @@ public class Repairer extends Stuff {
         super(name, surname, post, salary);
     }
 
+
 }

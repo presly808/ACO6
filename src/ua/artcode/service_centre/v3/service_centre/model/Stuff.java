@@ -1,9 +1,11 @@
 package ua.artcode.service_centre.v3.service_centre.model;
 
+import java.io.Serializable;
+
 /**
  * Created by tokar on 30.04.2015.
  */
-public class Stuff  {
+public class Stuff  implements Serializable {
     private String name;
     private String surname;
     private String post;
@@ -53,11 +55,18 @@ public class Stuff  {
         this.salary = salary;
     }
 
-    public String toString(){
+    /*public String toString(){
         //return String.format("name : %s, surname : %s, post : %�, salary: = %.3f\n", name, surname,post);
         return String.format("name : %s, surname: %s, post : %s, salary: %.2f\n",name,surname,post,salary);
+    }*/
+
+    @Override
+    public String toString() {
+        return "Stuff{" +
+                "salary=" + salary +
+                ", post='" + post + '\'' +
+                ", surname='" + surname + '\'' +
+                ", name='" + name + '\'' +
+                '}';
     }
-
-
-
 }
