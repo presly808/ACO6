@@ -1,0 +1,25 @@
+1. class File, Wrappers in Java
+    BubbleSort
+    Recursion
+
+2. Do all unfinished tasks
+
+    http://codingbat.com/java/Recursion-1
+
+3. Implement class FileHelper
+       - find file(dir)
+       - show directoryContent
+       - show file (content)
+       - delete file or dir
+       - copy file
+       - compare content of files
+       - deepFind (do search in file name and in file content by keyword)
+           * result of search can be written into file
+
+       -* find in file system without recursion
+       -* show content of folder
+          ex.
+           video - 70%
+           audio - 10%
+           document - 5%
+           other - 15%

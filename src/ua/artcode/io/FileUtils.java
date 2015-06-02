@@ -2,9 +2,7 @@ package ua.artcode.io;
 
 import java.io.File;
 
-/**
- * Created by serhii on 30.05.15.
- */
+
 public class FileUtils {
 
     // dir command example
@@ -33,6 +31,39 @@ public class FileUtils {
                 tree(child, spaces + "|---");
             }
         }
+    }
+
+    public static void findByName(File file, String keyWord){
+
+        if(file.getName().contains(keyWord)){
+            System.out.println(file.getAbsolutePath());
+        }
+
+        if(file.isDirectory()){
+            for (File child : file.listFiles()) {
+                findByName(child, keyWord);
+            }
+        }
+
+    }
+
+    public static String findByNameWithRes(File file, String keyWord){
+
+        String res = "";
+
+        if(file.getName().contains(keyWord)){
+            res += file.getAbsolutePath() + "\n";
+        }
+
+        if(file.isDirectory()){
+            for (File child : file.listFiles()) {
+                String childReturnedRes = findByNameWithRes(child, keyWord);
+                res += childReturnedRes;
+            }
+        }
+
+        return res;
+
     }
 
 }
