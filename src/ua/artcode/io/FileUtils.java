@@ -1,6 +1,8 @@
 package ua.artcode.io;
 
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
 
 
 public class FileUtils {
@@ -64,6 +66,15 @@ public class FileUtils {
 
         return res;
 
+    }
+
+    public static String getFileContent(String path) throws FileNotFoundException {
+        Scanner sc = new Scanner(new File(path));
+        StringBuilder sb = new StringBuilder();
+        while(sc.hasNextLine()){
+            sb.append(sc.nextLine()).append("\n");
+        }
+        return sb.toString();
     }
 
 }
