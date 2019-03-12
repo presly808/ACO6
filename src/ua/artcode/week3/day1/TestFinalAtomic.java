@@ -15,7 +15,7 @@ public class TestFinalAtomic {
 /*class FakeAtomicStation extends AtomicStation {
 
     @Override
-    public void start(int temperature) {
+    public void hello(int temperature) {
         System.out.println("Boom");
     }
 }*/
@@ -30,7 +30,7 @@ final class AtomicStation {
 
     public final void start(int temperature){
         if(temperature < CRITICAL_TEMPERATURE){
-            System.out.println("start station");
+            System.out.println("hello station");
         } else {
             System.out.println("Save mode on");
         }
