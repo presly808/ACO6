@@ -4,6 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import ua.myuber.controller.ClientController;
 import ua.myuber.controller.ClientControllerImpl;
+import ua.myuber.db.MyDBMemory;
 import ua.myuber.model.Client;
 import ua.myuber.model.Location;
 import ua.myuber.model.Order;
@@ -32,7 +33,7 @@ public class ClientControllerTest {
 		order.setFrom(from);
 		order.setTo(to);
 
-		ClientController clientController = new ClientControllerImpl();
+		ClientController clientController = new ClientControllerImpl(new MyDBMemory());
 		Order actual = clientController.create(order);
 
 		Assert.assertTrue(actual.getStatus() == Status.NEW);
